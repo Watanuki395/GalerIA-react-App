@@ -1,0 +1,65 @@
+{
+    "Header": {
+
+        "title": "GALER.IA",
+        "paragraph": "¿Te imaginas tener un agente que responda todos los mensajes de tu negocio 24/7?"
+
+    },
+    "About": {
+        "paragraph": "En GALER.IA somos un equipo de entuciastas de la tecnologia que nos emociona poder brindar soluciones informaticas basadas en las nuevas arquitecturas de la nube. Tenemos amplia experiencia integrando nuestras soluciones y ayudando clientes alrededor del mundo.",
+        "Why": [
+            "Amplia Experiencia en el Mercado.",
+            "Soluciones Basadas en la Nube.",
+            "Tecnologia de Punta."
+        ],
+        "Why2": [
+            
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-car",
+            "name": "Plan Lite - $90/mes",
+            "text": "incluye respuestas personalizadas, para 1 plataforma(messenger, pagina web, telegram), ideal para centros de servicio y atencion al cliente en aspectos basicos de la compañia."
+        },
+        {
+            "icon": "fa fa-truck",
+            "name": "Plan Standar - $120/mes",
+            "text": "Incluye respuestas personalizadas para 1 plataforma(messenger, pagina web, telegram), agenda citas en linea y base de datos, especial para dentistas, doctores, salones de belleza y barberias."
+        },
+        {
+            "icon": "fa fa-subway",
+            "name": "Plan Empresarial",
+            "text": "¿necesitas algo mas de potencia para ateneder a tus clientes? ponte en contacto con nuetro equipo de ventas, escribenos a galer.ia.company@gmail.com"
+        }
+    ],
+    "Testimonials": [],
+    "Team": [],
+    "Contact": {
+        "address": "Puriscal, San Jose, Costa Rica",
+        "phone": "+506 6119-5433",
+        "email": "galer.ia.company@gmail.com",
+        "facebook": "https://www.facebook.com/galer.ia.the.company/",
+        "instagram": "https://www.instagram.com/galer.ia396/"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Integracion con Messenger",
+            "text": "Actualmente Messenger de Facebook alcanza 1300 millones de usuarios cada mes y es la herramienta mas usada para contactar a las empresas "
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Sistema para Citas",
+            "text": "Nuestro Bot te puede ayudar a agendar las citas de tu negocio, es tan sencillo que te sorprenderas"
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "MultiBot",
+            "text": "Nuestos Bots pueden antender multiples clientes a la vez, de este modo los tus clientes no tienen que esperar para recibir la inforamcion que buscan."
+        },
+        {
+            "icon": "fa fa-bar-chart",
+            "title": "Analisis de Datos",
+            "text": "Si no tienes datos, no tienes nada. En GALER.IA te ofrecemos el servicio de analisis de datos, para que puedas entender mejor a las personas que entran en contacto con tu empresa."
+        }
+    ]
+}
