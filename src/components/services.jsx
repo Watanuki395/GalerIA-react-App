@@ -6,10 +6,9 @@ export class Services extends Component {
       <div id="services" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Our Services</h2>
+            <h2>Precios</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              En nuestro equipo de trabajo nos preocupamos por ofrecerte los mejor precios del mercado y por eso te ofrecemos diferentes paquetes, para que elijas el que mas se acomoda a tu presupuesto.
             </p>
           </div>
           <div className="row">
