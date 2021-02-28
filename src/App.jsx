@@ -33,7 +33,12 @@ export class App extends Component {
         <Services data={this.state.landingPageData.Services} />
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
-        <MessengerCustomerChat pageId="106439871455703"appId="374538900045410"htmlRef="GALER.IA"/>,
+        <div className="fb-customerchat"
+        attribution="setup_tool"
+        page_id="106439871455703"
+        logged_in_greeting="Hola!"
+        logged_out_greeting="Hasta la proxima">
+      </div>
       </div>
     )
   }
@@ -47,5 +52,6 @@ export default App;
 /*
  <Gallery />
 <Testimonials data={this.state.landingPageData.Testimonials} />
+<MessengerCustomerChat pageId="106439871455703"appId="374538900045410"version='8.0'/>,
 
 */
