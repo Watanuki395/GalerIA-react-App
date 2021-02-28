@@ -33,13 +33,7 @@ export class App extends Component {
         <Services data={this.state.landingPageData.Services} />
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
-        <div class="fb-customerchat"
-        attribution="setup_tool"
-        page_id="106439871455703"
-        theme_color="#6699cc"
-        logged_in_greeting="Hola!"
-        logged_out_greeting="Hola!">
-      </div>
+        <MessengerCustomerChat pageId="106439871455703"appId="374538900045410"/>
       </div>
     )
   }
