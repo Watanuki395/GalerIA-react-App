@@ -19,32 +19,7 @@
   </head>
   
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">  
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v10.0'
-        });
-      };
-
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
-      attribution="setup_tool"
-      page_id="106439871455703"
-      theme_color="#6699cc"
-      logged_in_greeting="Hola!"
-      logged_out_greeting="Inicia sesion para hablar con nosotros">
-    </div>
+   
   <div id="root"></div>
   <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
   <script type="text/javascript" src="js/bootstrap.js"></script> 
@@ -52,4 +27,5 @@
   <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
   <script type="text/javascript" src="js/contact_me.js"></script> 
   <script type="text/javascript" src="js/main.js"></script>
+  
   </body>
