@@ -33,7 +33,7 @@ export class App extends Component {
         <Services data={this.state.landingPageData.Services} />
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
-        <MessengerCustomerChat pageId="106439871455703"appId="374538900045410"/>,
+        <MessengerCustomerChat pageId="106439871455703"appId="374538900045410"htmlRef="GALER.IA"/>,
       </div>
     )
   }
