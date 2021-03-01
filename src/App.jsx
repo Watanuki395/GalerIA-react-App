@@ -9,7 +9,7 @@ import Services from './components/services';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+//import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export class App extends Component {
   state = {
@@ -33,7 +33,7 @@ export class App extends Component {
         <Services data={this.state.landingPageData.Services} />
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
-        <MessengerCustomerChat pageId="106439871455703"appId="374538900045410"/>
+        
       </div>
     )
   }
