@@ -9,7 +9,7 @@ import Services from './components/services';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
-import MessengerCustomerChat from '../src/react-messenger-customer-chat';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export class App extends Component {
   state = {
