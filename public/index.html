@@ -20,7 +20,9 @@
   
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">  
 
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js"></script>
+    <IfModule mod_headers.c>
+      Header set Content-Security-Policy "script-src 'unsafe-inline' 'self' https://www.facebook.com/ https://www.facebook.net/ https://connect.facebook.net https://connect.facebook.com"
+    </IfModule>
 
   <div id="root"></div>
   <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
