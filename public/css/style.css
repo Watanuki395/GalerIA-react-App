@@ -70,21 +70,21 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
-	border-color: rgba(231, 231, 231, 0);
+	background-color: rgba(10, 13, 22, 0.76);
+	border-color: rgba(119, 126, 138, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: #333;
+	color: rgb(182, 187, 197);
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	color: #555;
+	color: rgb(188, 196, 207);
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -186,7 +186,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/art-con4.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -194,11 +194,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	background: rgba(8, 3, 36, 0.301);
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
-	color: #fff;
+	color: rgb(194, 194, 197);
 	font-size: 82px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -225,7 +225,7 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #fff;
 }
 #features i.fa {
 	font-size: 38px;
