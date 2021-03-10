@@ -1,6 +1,32 @@
 import React, { Component } from "react";
 
 export class Contact extends Component {
+constructor(props){
+  super(props);
+  this.state = {
+    UserName :'',
+    UserEmail :'',
+    UserMessage : '',
+    UserSubmit : false
+  };
+  this.handleChange = this.handleChange.bind(this);
+  this.handleSubmit = this.handleSubmit.bind(this);
+};
+
+handleChange(event) {
+  const target = event.target;
+  const name = target.name;
+  const value = target.value;
+  this.setState({
+    [name]: value
+  });
+}
+
+handleSubmit(event) {
+  alert('Muchas gracias por brindarnos tu informacion, el correo fue ' + this.state.value);
+  event.preventDefault();
+}
+
   render() {
     return (
       <div>
@@ -19,11 +45,14 @@ export class Contact extends Component {
                     <div className="col-md-6">
                       <div className="form-group">
                         <input
+                          name="UserName"
                           type="text"
                           id="name"
                           className="form-control"
                           placeholder="Nombre"
                           required="required"
+                          value={this.state.UserName} 
+                          onChange={this.handleChange}
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -31,11 +60,14 @@ export class Contact extends Component {
                     <div className="col-md-6">
                       <div className="form-group">
                         <input
+                          name="UserEmail"
                           type="email"
                           id="email"
                           className="form-control"
                           placeholder="Email"
                           required="required"
+                          value={this.state.UserEmail} 
+                          onChange={this.handleChange}
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -43,17 +75,24 @@ export class Contact extends Component {
                   </div>
                   <div className="form-group">
                     <textarea
-                      name="message"
+                      name="UserMessage"
                       id="message"
                       className="form-control"
                       rows="4"
                       placeholder="Mensaje"
-                      required
+                      required = "required"
+                      value={this.state.UserMessage} 
+                      onChange={this.handleChange}
+
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
+                  <button 
+                  type="submit" 
+                  className="btn btn-custom btn-lg"
+                  onSubmit={this.handleSubmit}
+                  >
                     Enviar Mensaje
                   </button>
                 </form>
