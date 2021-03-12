@@ -19,7 +19,12 @@ export class Services extends Component {
                     <i className={d.icon}></i>
                     <div className="service-desc">
                       <h3>{d.name}</h3>
-                      <p>{d.text}</p>
+                      <li>{d.text}</li>
+                      <li>{d.text2}</li>
+                      <li>{d.text3}</li>
+                      <li>{d.text4}</li>
+                      <li>{d.text5}</li>
+                      <li>{d.text6}</li>
                     </div>
                   </div>
                 ))
