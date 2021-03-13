@@ -17,22 +17,32 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-car",
-            "name": "Plan Lite - $69/mes",
-            "text": "Agente virtual entrenado en un área de servicio del negocio."
+             "icon": "fa fa-car",
+             "name": "Plan Lite - $69/mes",
+             "text": "Agente virtual entrenado en un área de servicio del negocio."
             ,"text2":"Una plataforma (messenger, website, telegram)"
             ,"text3":"Respuestas dinámicas"
             ,"text4":"Envío de correos. (información de productos, servicios, menús, horarios) + 1 plantilla personalizada."
         },
         {
-            "icon": "fa fa-truck",
-            "name": "Plan Standar - $129/mes",
-            "text": "Incluye agente virtual entrenado en un área de servicio del negocio, dos plataformas  (messenger, website, telegram), Envío de correos. (información de productos, servicios, menús, horarios) + 3 plantillas personalizadas, Conexión a Base de datos en la nube  (guardar información de contacto,pedidos, solicitudes)"
+             "icon": "fa fa-truck",
+             "name": "Plan Standar - $129/mes",
+             "text": "Agente virtual entrenado en un área de servicio del negocio."
+            ,"text2":"Dos plataforma (messenger, website, telegram)"
+            ,"text3":"Respuestas dinámicas"
+            ,"text4":"Envío de correos. (información de productos, servicios, menús, horarios) + 3 plantilla personalizadas."
+            ,"text5":"Conexión a Base de datos en la nube  (guardar información de contacto,pedidos, solicitudes)"
         },
         {
-            "icon": "fa fa-subway",
-            "name": "Plan Empresarial - $499",
-            "text": "Incluye agente virtual entrenado en un área de servicio del negocio, Envío de correos personalizados. (información de productos, servicios, menús, horarios) + 5 plantillas. Conexión a Base de datos en la nube  (guardar información de contacto,pedidos, solicitudes), Integración con sistemas de inventario y Facturación, Análisis de datos estadísticos y asesoramiento por parte de uno de nuestros expertos en ciencia de datos."
+             "icon": "fa fa-subway",
+             "name": "Plan Empresarial - $499",
+             "text": "Agente virtual entrenado en un área de servicio del negocio."
+            ,"text2":"Dos plataforma (messenger, website, telegram)"
+            ,"text3":"Respuestas dinámicas"
+            ,"text4":"Envío de correos. (información de productos, servicios, menús, horarios) + 5 plantilla personalizadas."
+            ,"text5":"Conexión a Base de datos en la nube  (guardar información de contacto,pedidos, solicitudes)"
+            ,"text6":"Integración con sistemas de inventario y Facturación"
+            ,"text7":"Análisis de datos estadísticos y asesoramiento por parte de uno de nuestros expertos en Ciencia de Datos."
         }
     ],
     "Testimonials": [],
