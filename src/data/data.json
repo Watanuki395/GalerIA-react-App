@@ -17,19 +17,32 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-car",
-            "name": "Plan Lite - $69.99/mes",
-            "text": "Incluye respuestas personalizadas, para 1 plataforma(messenger, pagina web, telegram), ideal para centros de servicio y atencion al cliente en aspectos basicos de la compañia."
+             "icon": "fa fa-car",
+             "name": "Plan Lite - $69/mes",
+             "text": "Agente virtual entrenado en un área de servicio del negocio."
+            ,"text2":"Una plataforma (messenger, website, telegram)"
+            ,"text3":"Respuestas dinámicas"
+            ,"text4":"Envío de correos. (información de productos, servicios, menús, horarios) + 1 plantilla personalizada."
         },
         {
-            "icon": "fa fa-truck",
-            "name": "Plan Standar - $129.99/mes",
-            "text": "Incluye respuestas personalizadas para 1 plataforma(messenger, pagina web, telegram), agenda citas en linea y base de datos, especial para dentistas, doctores, salones de belleza y barberias."
+             "icon": "fa fa-truck",
+             "name": "Plan Standar - $129/mes",
+             "text": "Agente virtual entrenado en un área de servicio del negocio."
+            ,"text2":"Dos plataforma (messenger, website, telegram)"
+            ,"text3":"Respuestas dinámicas"
+            ,"text4":"Envío de correos. (información de productos, servicios, menús, horarios) + 3 plantilla personalizadas."
+            ,"text5":"Conexión a Base de datos en la nube  (guardar información de contacto,pedidos, solicitudes)"
         },
         {
-            "icon": "fa fa-subway",
-            "name": "Plan Empresarial - $499",
-            "text": "¿necesitas algo mas de potencia para ateneder a tus clientes? ponte en contacto con nuetro equipo de ventas, escribenos a info@galer-ia.com"
+             "icon": "fa fa-subway",
+             "name": "Plan Empresarial - $499",
+             "text": "Agente virtual entrenado en un área de servicio del negocio."
+            ,"text2":"Dos plataforma (messenger, website, telegram)"
+            ,"text3":"Respuestas dinámicas"
+            ,"text4":"Envío de correos. (información de productos, servicios, menús, horarios) + 5 plantilla personalizadas."
+            ,"text5":"Conexión a Base de datos en la nube  (guardar información de contacto,pedidos, solicitudes)"
+            ,"text6":"Integración con sistemas de inventario y Facturación"
+            ,"text7":"Análisis de datos estadísticos y asesoramiento por parte de uno de nuestros expertos en Ciencia de Datos."
         }
     ],
     "Testimonials": [],

@@ -20,6 +20,12 @@ export class Services extends Component {
                     <div className="service-desc">
                       <h3>{d.name}</h3>
                       <p>{d.text}</p>
+                      <p>{d.text2}</p>
+                      <p>{d.text3}</p>
+                      <p>{d.text4}</p>
+                      <p>{d.text5}</p>
+                      <p>{d.text6}</p>
+                      <p>{d.text7}</p>
                     </div>
                   </div>
                 ))

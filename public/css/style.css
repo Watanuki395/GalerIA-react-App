@@ -47,14 +47,6 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #608dfd;
 }
-ul, ol {
-	list-style: none;
-}
-ul, ol {
-	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
-}
 hr {
 	height: 2px;
 	width: 70px;
@@ -325,6 +317,11 @@ header .intro-text {
 }
 #services p {
 	color: rgba(14, 13, 13, 0.75);
+	text-align: left;
+}
+#services ul {
+	color: rgba(14, 13, 13, 0.75);
+	text-align: left;
 }
 #services .service-desc {
 	margin-bottom: 40px;
