@@ -1,16 +1,16 @@
 {
     "Header": {
 
-        "title": "GALER.IA",
+        "title": "galer.IA",
         "paragraph": ""
 
     },
     "About": {
-        "paragraph": "En GALER.IA somos un equipo de entuciastas de la tecnologia que nos emociona poder brindar soluciones informaticas basadas en las nuevas arquitecturas de la nube. Tenemos amplia experiencia integrando nuestras soluciones y ayudando clientes alrededor del mundo.",
+        "paragraph": "En galer.IA somos un equipo de entusiastas de la tecnología, a quienes les emociona poder brindar soluciones informáticas basadas en las nuevas arquitecturas de la Nube. Tenemos amplia experiencia integrando nuestras soluciones y ayudando a clientes en sus diferentes líneas de negocio.",
         "Why": [
             "Amplia Experiencia en el Mercado.",
             "Soluciones Basadas en la Nube.",
-            "Tecnologia de Punta."
+            "Tecnología de Punta."
         ],
         "Why2": [
             
@@ -18,18 +18,18 @@
     },
     "Services": [{
             "icon": "fa fa-car",
-            "name": "Plan Lite - $69.99/mes",
-            "text": "Incluye respuestas personalizadas, para 1 plataforma(messenger, pagina web, telegram), ideal para centros de servicio y atencion al cliente en aspectos basicos de la compañia."
+            "name": "Plan Lite - $69.99/Mes",
+            "text": "Incluye respuestas personalizadas para 1 plataforma a escoger (Facebook Messenger, Página Web, Telegram), ideal para Centros de Servicio y Atención al Cliente en aspectos e información básica de la compañía."
         },
         {
             "icon": "fa fa-truck",
-            "name": "Plan Standar - $129.99/mes",
-            "text": "Incluye respuestas personalizadas para 1 plataforma(messenger, pagina web, telegram), agenda citas en linea y base de datos, especial para dentistas, doctores, salones de belleza y barberias."
+            "name": "Plan Standard - $129.99/Mes",
+            "text": "Incluye respuestas personalizadas para 1 plataforma a escoger (Facebook Messenger, Página Web, Telegram), Agenda de Citas automatizado en línea y Base de Datos, especial para negocios quienes trabajan bajo agenda como Odontología, Medicina, Salones de Belleza o Barberías."
         },
         {
             "icon": "fa fa-subway",
-            "name": "Plan Empresarial - $499",
-            "text": "¿necesitas algo mas de potencia para ateneder a tus clientes? ponte en contacto con nuetro equipo de ventas, escribenos a info@galer-ia.com"
+            "name": "Plan Empresarial - $499/Mes",
+            "text": "¿Necesitas más potencia para atender a tus clientes? Ponte en contacto con nosotros, diseñaremos servicios personalizados para tu empresa que brindaran soluciones a tus problemas e integración con tus sistemas ya existentes, escríbenos a info@galer-ia.com"
         }
     ],
     "Testimonials": [],
@@ -43,23 +43,23 @@
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Bot para Messenger",
-            "text": "Messenger alcanza 1300 millones de usuarios cada mes y es la herramienta mas usada para contactar a las empresas"
+            "title": "Bot para Facebook Messenger",
+            "text": "Messenger alcanza 1300 millones de usuarios cada mes y es la herramienta más usada para contactar a las empresas a nivel mundial."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Sistema de Citas",
-            "text": "El sistema de citas puede ayudarte a organizar la agenda de tu negocio, es tan sencillo que te sorprendera"
+            "title": "Sistema Automático de Citas",
+            "text": "El sistema de citas puede ayudarte a organizar muy fácilmente la agenda de tu negocio, es tan sencillo que te sorprenderá."
         },
         {
             "icon": "fa fa-envelope",
-            "title": "Envio de Correos",
-            "text": "Nuestros agentes vituales estan completamente integrados con nuestro sistema de envio de correos, muy util para mantenerte en contacto con tus clientes."
+            "title": "Envio Automático de Correos",
+            "text": "Nuestros agentes virtuales están completamente integrados con nuestro sistema de envió automático de correos a tus clientes, muy útil para mantenerte en contacto con tus clientes."
         },
         {
             "icon": "fa fa-bar-chart",
-            "title": "Analisis de Datos",
-            "text": "Si no tienes datos, no tienes nada. En GALER.IA te ofrecemos el servicio de analisis de datos profesional, para que puedas llevar a tu empresa al siguiente nivel."
+            "title": "Análisis de Datos",
+            "text": "Si no tienes datos, no tienes nada. En galer.IA te ofrecemos un servicio profesional en Data Analytics, para que puedas llevar a tu empresa al siguiente nivel tomando decisiones con amplia visibilidad del comportamiento de tu negocio."
         }
     ]
 }
