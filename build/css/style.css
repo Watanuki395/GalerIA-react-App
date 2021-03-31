@@ -79,11 +79,11 @@ hr {
 	font-size: 24px;
 	font-weight: 700;
 	color: rgb(182, 187, 197);
-	text-transform: uppercase;
+	text-transform: none;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
+	text-transform: none;
 	color: rgb(188, 196, 207);
 	font-size: 15px;
 	font-weight: 400;
@@ -153,7 +153,7 @@ hr {
 }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
+	text-transform: none;
 	color: #fff;
 	background-color: #5ca9fb;
 	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -363,7 +363,7 @@ header .intro-text {
 	font-size: 18px;
 	letter-spacing: 1px;
 	font-weight: 500;
-	text-transform: uppercase;
+	text-transform: none;
 }
 .hover-bg:hover .hover-text>h4 {
 	opacity: 1;
