@@ -8,7 +8,7 @@ export class Services extends Component {
           <div className="section-title">
             <h2>Precios</h2>
             <p>
-              En nuestro equipo de trabajo nos preocupamos por ofrecerte los mejor precios del mercado y por eso te ofrecemos diferentes paquetes, para que elijas el que mas se acomoda a tu presupuesto.
+            En galer.IA nos preocupamos por ofrecerte los mejores precios del mercado, por eso te ofrecemos diferentes paquetes, para que elijas el que más se acomode a tu presupuesto.
             </p>
           </div>
           <div className="row">
