@@ -35,9 +35,9 @@ handleSubmit(event) {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Contactanos</h2>
+                  <h2>Contáctanos</h2>
                   <p>
-                    Por favor llena la siguiente informacion para poder estar en contacto.
+                    Por favor completa la siguiente información para poder estar en contacto.
                   </p>
                 </div>
                 <form name="sentMessage" id="contactForm" noValidate>
@@ -100,10 +100,10 @@ handleSubmit(event) {
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
-                <h3>Informacion de Contacto</h3>
+                <h3>Información de Contacto</h3>
                 <p>
                   <span>
-                    <i className="fa fa-map-marker"></i> Direccion
+                    <i className="fa fa-map-marker"></i> Dirección
                   </span>
                   {this.props.data ? this.props.data.address : "loading"}
                 </p>
@@ -111,7 +111,6 @@ handleSubmit(event) {
               <div className="contact-item">
                 <p>
                   <span>
-                    
                   </span>{" "}
                   {this.props.data ? this.props.data.phone : "loading"}
                 </p>
@@ -119,7 +118,7 @@ handleSubmit(event) {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    <i className="fa fa-envelope-o"></i> E-mail
                   </span>{" "}
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>
@@ -152,7 +151,7 @@ handleSubmit(event) {
             <p>
               &copy; 2021  Design by{" "}
               <a href="http://www.galer.ia.com" rel="nofollow">
-                GALER.IA
+                galer.IA
               </a>
             </p>
           </div>
