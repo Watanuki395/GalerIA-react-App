@@ -1,28 +1,27 @@
 {
     "Header": {
-
-        "title": "GALER.IA",
-        "paragraph": ""
-
+        "title": "galerIA ",
+        "paragraph": "the company"
     },
     "About": {
-        "paragraph": "En GALER.IA somos un equipo de entuciastas de la tecnologia que nos emociona poder brindar soluciones informaticas basadas en las nuevas arquitecturas de la nube. Tenemos amplia experiencia integrando nuestras soluciones y ayudando clientes alrededor del mundo.",
+        "paragraph": "En galerIA somos un equipo de entusiastas de la tecnología, a quienes les emociona poder brindar soluciones informáticas basadas en las nuevas arquitecturas de la Nube. Tenemos amplia experiencia integrando nuestras soluciones y ayudando a clientes en sus diferentes líneas de negocio.",
         "Why": [
-            "Amplia Experiencia en el Mercado.",
-            "Soluciones Basadas en la Nube.",
-            "Tecnologia de Punta."
+            "Amplia experiencia en el Mercado.",
+            "Soluciones basadas en la Nube.",
+            "Tecnología de Punta."
         ],
         "Why2": [
             
         ]
     },
     "Services": [{
-             "icon": "fa fa-car",
-             "name": "Plan Lite - $69/mes",
-             "text": "Agente virtual entrenado en un área de servicio del negocio."
-            ,"text2":"Una plataforma (messenger, website, telegram)"
+
+            "icon": "fa fa-car",
+            "name": "Plan Lite - $69/Mes",
+            "text": "Agente virtual entrenado en un área de servicio del negocio."
+            ,"text2":"Una plataforma (Facebook Messenger, Página Web, Telegram)"
             ,"text3":"Respuestas dinámicas"
-            ,"text4":"Envío de correos. (información de productos, servicios, menús, horarios) + 1 plantilla personalizada."
+            ,"text4":"Envío de correos (información de productos, servicios, menús, horarios) + 1 plantilla personalizada."
         },
         {
              "icon": "fa fa-truck",
@@ -43,36 +42,36 @@
             ,"text5":"Conexión a Base de datos en la nube  (guardar información de contacto,pedidos, solicitudes)"
             ,"text6":"Integración con sistemas de inventario y Facturación"
             ,"text7":"Análisis de datos estadísticos y asesoramiento por parte de uno de nuestros expertos en Ciencia de Datos."
+
         }
     ],
     "Testimonials": [],
     "Team": [],
     "Contact": {
         "address": "San Jose, Costa Rica",
-        "phone": "+506 6119-5433",
         "email": "info@galer-ia.com",
         "facebook": "https://www.facebook.com/galer.ia.the.company/",
-        "instagram": "https://www.instagram.com/galer.ia396/"
+        "instagram": "https://www.instagram.com/galer.ia_thecompany/"
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Bot para Messenger",
-            "text": "Messenger alcanza 1300 millones de usuarios cada mes y es la herramienta mas usada para contactar a las empresas"
+            "title": "Bot para Facebook Messenger",
+            "text": "Messenger alcanza 1300 millones de usuarios cada mes y es la herramienta más usada para contactar a las empresas a nivel mundial."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Sistema de Citas",
-            "text": "El sistema de citas puede ayudarte a organizar la agenda de tu negocio, es tan sencillo que te sorprendera"
+            "title": "Sistema Automático de Citas",
+            "text": "El sistema de citas puede ayudarte a organizar muy fácilmente la agenda de tu negocio, es tan sencillo que te sorprenderá."
         },
         {
             "icon": "fa fa-envelope",
-            "title": "Envio de Correos",
-            "text": "Nuestros agentes vituales estan completamente integrados con nuestro sistema de envio de correos, muy util para mantenerte en contacto con tus clientes."
+            "title": "Envio Automático de Correos",
+            "text": "Nuestros agentes virtuales están completamente integrados con nuestro sistema de envío automático de correos a tus clientes, muy útil para mantenerte en contacto con tus clientes."
         },
         {
             "icon": "fa fa-bar-chart",
-            "title": "Analisis de Datos",
-            "text": "Si no tienes datos, no tienes nada. En GALER.IA te ofrecemos el servicio de analisis de datos profesional, para que puedas llevar a tu empresa al siguiente nivel."
+            "title": "Análisis de Datos",
+            "text": "Si no tienes datos, no tienes nada. En galerIA te ofrecemos un servicio profesional en Data Analytics, para que puedas llevar a tu empresa al siguiente niveltomando decisiones con amplia visibilidad del comportamiento de tu negocio."
         }
     ]
 }

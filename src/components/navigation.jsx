@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              GALER.IA
+              galerIA
             </a>{" "}
           </div>
 
@@ -50,7 +50,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
-                  Contactanos
+                  Contáctanos
                 </a>
               </li>
             </ul>

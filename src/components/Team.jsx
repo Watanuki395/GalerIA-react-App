@@ -6,7 +6,7 @@ export class Team extends Component {
       <div id="team" className="text-center">
         <div className="container">
           <div className="col-md-8 col-md-offset-2 section-title">
-            <h2>Aprovecha las posibilidades que ofrece un agente virtual.</h2>
+            <h2>Aprovecha las posibilidades que ofrece un agente virtual</h2>
             <p>
             Agrega un software de mensajería moderno con funciones de chat en vivo a tu sitio web o aplicación móvil para mantener conversaciones enriquecidas con los clientes 
             y evitar que tengan que repetir siempre lo mismo.
