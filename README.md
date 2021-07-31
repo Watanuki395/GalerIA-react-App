@@ -1,4 +1,4 @@
 # GalerIA-react-App
 
-galer.IA react app
+galerIA react app
 adding updates

@@ -8,7 +8,7 @@ function sendEmail(xto,FName,xMsg){
         templateId: "d-88308fd9749b4e91a88e7d5aa9a2ba1a",
         to: xto, // Change to your recipient
         from: 'info@galer-ia.com', // Change to your verified sender
-        subject: 'Contacto galer.IA',
+        subject: 'Contacto galerIA the company',
         dynamic_template_data:{
         FName,NumSeg,xMsg
         }

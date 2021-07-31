@@ -150,8 +150,8 @@ handleSubmit(event) {
           <div className="container text-center">
             <p>
               &copy; 2021  Design by{" "}
-              <a href="http://www.galer.ia.com" rel="nofollow">
-                galer.IA
+              <a href="http://www.galer-ia.com" rel="nofollow">
+                galerIA the company
               </a>
             </p>
           </div>

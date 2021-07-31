@@ -4,7 +4,7 @@
         "paragraph": "the company"
     },
     "About": {
-        "paragraph": "En galer.IA somos un equipo de entusiastas de la tecnología, a quienes les emociona poder brindar soluciones informáticas basadas en las nuevas arquitecturas de la Nube. Tenemos amplia experiencia integrando nuestras soluciones y ayudando a clientes en sus diferentes líneas de negocio.",
+        "paragraph": "En galerIA somos un equipo de entusiastas de la tecnología, a quienes les emociona poder brindar soluciones informáticas basadas en las nuevas arquitecturas de la Nube. Tenemos amplia experiencia integrando nuestras soluciones y ayudando a clientes en sus diferentes líneas de negocio.",
         "Why": [
             "Amplia experiencia en el Mercado.",
             "Soluciones basadas en la Nube.",
@@ -51,7 +51,7 @@
         "address": "San Jose, Costa Rica",
         "email": "info@galer-ia.com",
         "facebook": "https://www.facebook.com/galer.ia.the.company/",
-        "instagram": "https://www.instagram.com/galer.ia396/"
+        "instagram": "https://www.instagram.com/galer.ia_thecompany/"
     },
     "Features": [{
             "icon": "fa fa-comments-o",
@@ -71,7 +71,7 @@
         {
             "icon": "fa fa-bar-chart",
             "title": "Análisis de Datos",
-            "text": "Si no tienes datos, no tienes nada. En galer.IA te ofrecemos un servicio profesional en Data Analytics, para que puedas llevar a tu empresa al siguiente niveltomando decisiones con amplia visibilidad del comportamiento de tu negocio."
+            "text": "Si no tienes datos, no tienes nada. En galerIA te ofrecemos un servicio profesional en Data Analytics, para que puedas llevar a tu empresa al siguiente niveltomando decisiones con amplia visibilidad del comportamiento de tu negocio."
         }
     ]
 }
