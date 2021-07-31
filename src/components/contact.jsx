@@ -111,7 +111,6 @@ handleSubmit(event) {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-phone"></i> Teléfono
                   </span>{" "}
                   {this.props.data ? this.props.data.phone : "loading"}
                 </p>
