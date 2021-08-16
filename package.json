@@ -15,11 +15,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "client-install": "cd client && npm install",
-    "client": "npm start --prefix client",
-    "start": "concurrently \"react-scripts start\" \"npm run client\"",
-    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "server-install": "cd server && npm install",
+    "server": "npm start --prefix server",
+    "start": "concurrently \"react-scripts start\" \"npm run server\"",
+    "dev": "concurrently --kill-others \"react-scripts start\" \"npm run server\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix server && npm run build --prefix server"
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {

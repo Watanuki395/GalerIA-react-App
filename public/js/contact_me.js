@@ -17,8 +17,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./sendgrid_conf.js",
-                type: "POST",
+                url: "/api/chatbot",
+                type: "GET",
                 data: {
                     name: name,
                     email: email,
