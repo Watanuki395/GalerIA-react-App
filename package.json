@@ -1,30 +1,38 @@
 {
   "name": "galeria-react-app",
-  "version": "1.0.0",
-  "description": "back-end",
-  "main": "index.js",
-  "scripts": {
-    "client-install": "cd client && npm install",
-    "dev": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "start": "concurrently \"npm run server\" \"npm run client\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Watanuki395/GalerIA-react-App.git"
-  },
-  "author": "Gerardo Salas M",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Watanuki395/GalerIA-react-App/issues"
-  },
-  "homepage": "https://github.com/Watanuki395/GalerIA-react-App#readme",
+  "private": true,
   "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
     "concurrently": "^6.2.1",
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.3"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server-install": "cd server && npm install",
+    "server": "npm start --prefix server",
+    "start": "concurrently \"react-scripts start\" \"npm run server\""
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
