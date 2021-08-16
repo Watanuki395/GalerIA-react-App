@@ -19,7 +19,7 @@
     "server": "npm start --prefix server",
     "start": "concurrently \"react-scripts start\" \"npm run server\"",
     "dev": "concurrently --kill-others \"react-scripts start\" \"npm run server\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build && npm install --prefix server && npm run start --prefix server"
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {
