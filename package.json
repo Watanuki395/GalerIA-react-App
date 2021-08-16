@@ -4,20 +4,27 @@
   "description": "back-end",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client-install": "cd client && npm install",
+    "dev": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Watanuki395/GalerIA-react-App.git"
   },
   "author": "Gerardo Salas M",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Watanuki395/GalerIA-react-App/issues"
   },
   "homepage": "https://github.com/Watanuki395/GalerIA-react-App#readme",
   "dependencies": {
     "concurrently": "^6.2.1",
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
   }
 }
