@@ -38,7 +38,7 @@ app.use(express.static(__dirname+'/public'));
 
 
 app.get("/", (req, res) => {
-    return res.send("Chatbot en linea 🤖🤖🤖");
+    return res.json({message: "Chatbot en linea 🤖🤖🤖" });
   });
 
 app.use("/api", require("./routes/api"));

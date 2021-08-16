@@ -3,10 +3,12 @@ const router = express.Router();
 //const dff = require('../dialogFlow/df')
 
 router.get("/chatbot", (req, res) => {
-  res.json({ ok: true, msg: "Esto esta funcionando bien desde API" });
+  res.json({ ok: true, msg: "Esto esta cargando supeeeer! bien desde API" });
 });
 
-
+router.post("/contact", (req, res) => {
+  res.json({ ok: true, msg: "mensaje recibido con exito!!" });
+});
 
 
 module.exports = router;

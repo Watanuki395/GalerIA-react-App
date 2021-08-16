@@ -4,23 +4,44 @@ import Header from './components/header';
 import Features from './components/features';
 import About from './components/about';
 import Services from './components/services';
-//import Gallery from './components/gallery';
-//import Testimonials from './components/testimonials';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
 //import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export class App extends Component {
-  state = {
-    landingPageData: {},
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      items: [],
+      landingPageData: {},
+    };
   }
+
   getlandingPageData() {
     this.setState({landingPageData : JsonData})
   }
 
   componentDidMount() {
     this.getlandingPageData();
+    fetch("/api/chatbot")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          this.setState({
+            isLoaded: true,
+            items: result.items
+          });
+        },
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
+      )
   }
 
   render() {
@@ -33,7 +54,6 @@ export class App extends Component {
         <Services data={this.state.landingPageData.Services} />
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
-       
       </div>
     )
   }
