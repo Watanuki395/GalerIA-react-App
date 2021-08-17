@@ -2,6 +2,10 @@ const express = require("express");
 const router = express.Router();
 //const dff = require('../dialogFlow/df')
 
+router.get("/", (req, res) => {
+  res.json({ ok: true, msg: "Esto esta cargando supeeeer! bien desde APIiiiii" });
+});
+
 router.get("/chatbot", (req, res) => {
   res.json({ ok: true, msg: "Esto esta cargando supeeeer! bien desde API" });
 });
