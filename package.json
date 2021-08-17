@@ -4,11 +4,11 @@
   "description": "back-end",
   "main": "server.js",
   "scripts": {
-    "client-install": "cd client && npm install",
-    "client": "npm start --prefix client",
+    "app-install": "cd app && npm install",
+    "app": "npm start --prefix app",
     "start": "node server.js",
-    "dev": "concurrently --kill-others \"npm run start\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run start --prefix client"
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run app\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix app && npm run build --prefix app"
   },
   "repository": {
     "type": "git",
