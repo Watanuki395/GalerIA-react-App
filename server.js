@@ -4,7 +4,8 @@ const cors = require('cors');
 require('dotenv').config() 
 const { response } = require('express');
 var exphbs = require("express-handlebars");
-const path = require('path')
+const path = require('path');
+const helmet = require('helmet') // creates headers that protect from attacks (security)
 
 const app = express(); 
 var router = express.Router();
