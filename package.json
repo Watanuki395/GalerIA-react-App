@@ -4,11 +4,9 @@
   "description": "back-end",
   "main": "server.js",
   "scripts": {
-    "app-install": "cd app && npm install",
-    "app": "npm start --prefix app",
     "start": "node server.js",
-    "dev": "concurrently --kill-others \"npm run start\" \"npm run app\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix app && npm run build --prefix app"
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap  && npm run build"
   },
   "repository": {
     "type": "git",
