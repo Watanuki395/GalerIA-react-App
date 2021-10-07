@@ -11,6 +11,7 @@ router.get("/chatbot", (req, res) => {
 });
 
 router.post("/contact", (req, res) => {
+  console.log("si llegamos");
   res.json({ ok: true, msg: "mensaje recibido con exito!!" });
 });
 

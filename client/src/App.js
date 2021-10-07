@@ -26,22 +26,14 @@ export class App extends Component {
 
   componentDidMount() {
     this.getlandingPageData();
-    fetch("/api/chatbot")
-      .then(res => res.json())
-      .then(
-        (result) => {
-          this.setState({
-            isLoaded: true,
-            items: result.items
-          });
-        },
-        (error) => {
-          this.setState({
-            isLoaded: true,
-            error
-          });
-        }
-      )
+
+    fetch('/api/chatbot', {
+      method: 'GET'
+    }).then(function(response) {
+      console.log(response)
+      return response.json();
+    });
+
   }
 
   render() {
