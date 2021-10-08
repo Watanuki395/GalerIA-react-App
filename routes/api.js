@@ -1,19 +1,9 @@
 const express = require("express");
 const router = express.Router();
-//const dff = require('../dialogFlow/df')
+const { SendMail } = require('../controllers/contact')
 
-router.get("/", (req, res) => {
-  res.json({ ok: true, msg: "Esto esta cargando supeeeer! bien desde APIiiiii" });
-});
 
-router.get("/chatbot", (req, res) => {
-  res.json({ ok: true, msg: "Esto esta cargando supeeeer! bien desde API" });
-});
-
-router.post("/contact", (req, res) => {
-  console.log("si llegamos");
-  res.json({ ok: true, msg: "mensaje recibido con exito!!" });
-});
+router.post("/contact", SendMail)
 
 
 module.exports = router;

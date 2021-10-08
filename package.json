@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Watanuki395/GalerIA-react-App#readme",
   "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
     "concurrently": "^6.2.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
