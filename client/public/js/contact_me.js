@@ -17,8 +17,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "/api/chatbot",
-                type: "GET",
+                url: "/api/contact",
+                type: "POST",
                 data: {
                     name: name,
                     email: email,

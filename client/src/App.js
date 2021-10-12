@@ -26,14 +26,6 @@ export class App extends Component {
 
   componentDidMount() {
     this.getlandingPageData();
-
-    fetch('/api/chatbot', {
-      method: 'GET'
-    }).then(function(response) {
-      console.log(response)
-      return response.json();
-    });
-
   }
 
   render() {

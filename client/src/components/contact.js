@@ -23,17 +23,8 @@ handleChange(event) {
 }
 
 handleSubmit(event) {
+  alert('Muchas gracias por brindarnos tu informacion, el correo fue ' + this.state.value);
   event.preventDefault();
-
-  fetch('/api/contact', {
-        method: 'POST',
-        // We convert the React state to JSON and send it as the POST body
-        body: JSON.stringify(this.state)
-      }).then(function(response) {
-        console.log(response)
-        alert('gracias por el interes en nuestros servicios y formar parte de nuestra familia');
-        return response.json();
-      });
 }
 
   render() {
@@ -49,7 +40,7 @@ handleSubmit(event) {
                     Por favor completa la siguiente información para poder estar en contacto.
                   </p>
                 </div>
-                <form onSubmit={this.handleSubmit}>
+                <form name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -100,6 +91,7 @@ handleSubmit(event) {
                   <button 
                   type="submit" 
                   className="btn btn-custom btn-lg"
+                  onSubmit={this.handleSubmit}
                   >
                     Enviar Mensaje
                   </button>
