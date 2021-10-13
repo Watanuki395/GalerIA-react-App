@@ -1,34 +1,31 @@
 {
   "name": "galeria-react-app",
-  "private": true,
-  "dependencies": {
-    "@sendgrid/mail": "^7.4.2",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
+  "version": "1.0.0",
+  "description": "back-end",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server.js",
+    "client": "cd client && npm run start",
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Watanuki395/GalerIA-react-App.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Gerardo Salas M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Watanuki395/GalerIA-react-App/issues"
+  },
+  "homepage": "https://github.com/Watanuki395/GalerIA-react-App#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "helmet": "^4.6.0"
   }
 }
